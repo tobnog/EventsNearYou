@@ -15,6 +15,7 @@ import { ForYouComponent } from './for-you/for-you.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PastEventsComponent } from './past-events/past-events.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { EventsRegisterComponent } from './events-register/events-register.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { CategoriesComponent } from './categories/categories.component';
     ForYouComponent,
     PastEventsComponent,
     CategoriesComponent,
+    EventsRegisterComponent,
   ],
   imports: [
     BrowserModule,
