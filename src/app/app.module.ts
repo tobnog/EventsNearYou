@@ -11,6 +11,7 @@ import { PageContentComponent } from './page-content/page-content.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { EventsComponent } from './events/events.component';
+import { ForYouComponent } from './for-you/for-you.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { EventsComponent } from './events/events.component';
     ContactComponent,
     AboutUsComponent,
     EventsComponent,
+    ForYouComponent,
   ],
   imports: [
     BrowserModule,
