@@ -13,6 +13,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { EventsComponent } from './events/events.component';
 import { ForYouComponent } from './for-you/for-you.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PastEventsComponent } from './past-events/past-events.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AboutUsComponent,
     EventsComponent,
     ForYouComponent,
+    PastEventsComponent,
+    CategoriesComponent,
   ],
   imports: [
     BrowserModule,
