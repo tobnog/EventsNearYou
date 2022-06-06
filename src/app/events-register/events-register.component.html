@@ -1,3 +1,35 @@
-<div class="row mb-5">
+<div class="row mb-5" id="events_register">
   <p class="text-center h5">Zarejestruj się na wydarzenie</p>
+  <div class="row mb-3 mt-3">
+    <div class="col">
+      <label for="first_name" class="form-label">Podaj swoje imię:</label>
+      <input type="text" class="form-control" id="first_name" aria-label="Imię">
+    </div>
+    <div class="col">
+      <label for="last_name" class="form-label">Podaj swoje nazwisko:</label>
+      <input type="text" class="form-control" id="last_name" aria-label="Nazwisko">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      <label for="email" class="form-label">Podaj adres e-mail:</label>
+      <input type="email" class="form-control" id="email" aria-label="E-mail">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      <label for="events" class="form-label">Wybierz wydarzenie z listy:</label>
+      <select class="form-select" id="events" aria-label="Wydarzenia">
+        <option selected>-----</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      <button type="submit" class="btn btn-primary">Wyślij zgłoszenie</button>
+    </div>
+  </div>
 </div>
